@@ -1,3 +1,4 @@
+/* Established some CSS structure to the board, including font size, and size of board, etc */
 .cell{
     width: 75px;
     height: 75px;
@@ -9,17 +10,19 @@
     color: black
 
 }
+/* established a permanent marker font which makes the game appear more fun and inviting to the user */
 #gameContainer{
     font-family: "Permanent Marker", cursive;
     text-align: center;
 }
+/* container for the cells built out a 3x3 board */
 #cellContainer{
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 225px;
     margin: auto;
 }
-
+/* found a fun tic tac toe image offline to display as a stop/repeat */
 body {
     background-image: url(https://media.istockphoto.com/id/1389742221/vector/hands-holding-pencils-to-play-tic-tac-toe.jpg?s=612x612&w=0&k=20&c=-RS4UPLSpI7rDibd7OW3OHyml_efL6H3RuYNw0TIaDQ=);
 }
