@@ -62,7 +62,7 @@ function checkWinner(){
         running = false;
     }
     else if(!options.includes("")){
-        statusText.textContent = `Draw!`;
+        statusText.textContent = `Cat's game!`;
         running = false;
     }
     else{

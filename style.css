@@ -1,12 +1,13 @@
 .cell{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border: 2px solid;
     box-shadow: 0 0 0 2px;
     line-height: 75px;
-    font-size: 75px;
+    font-size: 50px;
     cursor: pointer;
-    color: blue
+    color: black
+
 }
 #gameContainer{
     font-family: "Permanent Marker", cursive;
@@ -17,4 +18,8 @@
     grid-template-columns: repeat(3, auto);
     width: 225px;
     margin: auto;
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/id/1389742221/vector/hands-holding-pencils-to-play-tic-tac-toe.jpg?s=612x612&w=0&k=20&c=-RS4UPLSpI7rDibd7OW3OHyml_efL6H3RuYNw0TIaDQ=);
 }
